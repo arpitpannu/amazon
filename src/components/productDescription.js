@@ -10,9 +10,8 @@ const ProductDescription = () => {
             .then(res=>res.json())
             .then(json => {
                 setProduct(json);
-                console.log("product",product)
             })
-    }, []);
+    }, [i]);
     return (
         <>
             {product && <div className="produt-description">

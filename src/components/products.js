@@ -9,7 +9,6 @@ const Products = () => {
             .then(res=>res.json())
             .then(json => {
                 setProduct(json);
-                console.log(products)
             })
     }, []);
     return (
