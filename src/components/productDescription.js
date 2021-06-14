@@ -11,7 +11,7 @@ const ProductDescription = () => {
             .then(json => {
                 setProduct(json);
             })
-         +     }, [i]);
+             }, [i]);
     return (
         <>
             {product && <div className="produt-description">
