@@ -10,7 +10,7 @@ const Women = () => {
                 setProduct(json);
                 console.log(products)
             })
-    }, [products]);
+    }, []);
     return (
         <>
             <div className="heading">

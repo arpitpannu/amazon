@@ -10,7 +10,7 @@ const Mens = () => {
                 setProduct(json);
                 console.log(products)
             })
-    }, [products]);
+    }, []);
     return (
         <>
             <div className="heading">
