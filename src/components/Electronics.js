@@ -7,8 +7,7 @@ const Women = () => {
         fetch('https://fakestoreapi.com/products/category/electronics')
             .then(res=>res.json())
             .then(json => {
-                setProduct(json);
-            
+                setProduct(json)
             })
     }, []);
     return (
