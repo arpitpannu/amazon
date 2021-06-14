@@ -12,7 +12,7 @@ const ProductDescription = () => {
                 setProduct(json);
                 console.log("product",product)
             })
-    }, [product,i]);
+    }, []);
     return (
         <>
             {product && <div className="produt-description">
