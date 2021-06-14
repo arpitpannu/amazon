@@ -8,7 +8,6 @@ const Mens = () => {
             .then(res=>res.json())
             .then(json => {
                 setProduct(json);
-              
             })
     }, []);
     return (
